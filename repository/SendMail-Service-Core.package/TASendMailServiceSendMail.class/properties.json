@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "jupiter 04/26/2015 14:05",
+	"commentStamp" : "",
 	"instvars" : [
-		"url",
-		"timeInLondon" ],
-	"name" : "TASendMailServiceEmail",
+		"email",
+		"result" ],
+	"name" : "TASendMailServiceSendMail",
 	"pools" : [
 		 ],
 	"super" : "Object",

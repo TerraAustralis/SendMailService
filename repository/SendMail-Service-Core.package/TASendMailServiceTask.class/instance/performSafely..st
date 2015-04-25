@@ -10,7 +10,8 @@ performSafely: aBlock
       GRPlatform current
         doTransaction: [ 
           exception := ex.
-          DebuggerLogEntry createContinuationLabeled: 'SVCE continuation'.
+          DebuggerLogEntry
+            createContinuationLabeled: 'SendMailService continuation'.
           (ObjectLogEntry
             error: 'Background task exception: ''' , ex description , ''''
             object: aBlock) addToLog ].

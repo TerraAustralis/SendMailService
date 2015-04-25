@@ -1,1 +1,1 @@
-(name 'SendMail-Service-Core-jupiter.1' message '''initial' id 'f8c5b6b2-32c8-4fe5-9a53-124da952a40c' date '04/26/2015' time '14:27:02' author 'jupiter' ancestors () stepChildren ())
+(name 'SendMail-Service-Core-jupiter.2' message 'tasks wip' id 'd8c76bb8-24ad-4910-9beb-aa584d88151b' date '04/26/2015' time '15:33:29' author 'jupiter' ancestors ((name 'SendMail-Service-Core-jupiter.1' message '''initial' id 'f8c5b6b2-32c8-4fe5-9a53-124da952a40c' date '04/26/2015' time '14:27:02' author 'jupiter' ancestors () stepChildren ())) stepChildren ())

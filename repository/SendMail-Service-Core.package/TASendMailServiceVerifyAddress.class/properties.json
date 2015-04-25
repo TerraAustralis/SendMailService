@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "jupiter 04/26/2015 14:07",
+	"commentStamp" : "",
 	"instvars" : [
-		"url",
-		"timeInLondon" ],
-	"name" : "TASendMailServiceVerifyAddressTask",
+		"emailAddress",
+		"result" ],
+	"name" : "TASendMailServiceVerifyAddress",
 	"pools" : [
 		 ],
 	"super" : "Object",
