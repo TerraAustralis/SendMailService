@@ -1,0 +1,15 @@
+{
+	"category" : "SendMail-Service-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jupiter 04/26/2015 14:05",
+	"instvars" : [
+		"url",
+		"timeInLondon" ],
+	"name" : "TASendMailServiceEmail",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

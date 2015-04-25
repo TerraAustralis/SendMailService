@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"canBeRoot" : "jupiter 04/26/2015 14:09",
+		"description" : "jupiter 04/26/2015 14:09",
+		"handlerName" : "jupiter 04/26/2015 14:09",
+		"initialize" : "jupiter 04/26/2015 14:09" },
+	"instance" : {
+		"addTaskToQueue" : "jupiter 04/26/2015 14:09",
+		"automaticPoll" : "jupiter 04/26/2015 14:09",
+		"initialize" : "jupiter 04/26/2015 14:09",
+		"newTask" : "jupiter 04/26/2015 14:09",
+		"poll:" : "jupiter 04/26/2015 14:09",
+		"renderContentOn:" : "jupiter 04/26/2015 14:09",
+		"states" : "jupiter 04/26/2015 14:09",
+		"task" : "jupiter 04/26/2015 14:09" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfSendMailService",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jupiter 04/26/2015 13:20",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfSendMailService",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "SendMail-Service-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jupiter 04/26/2015 14:42",
+	"instvars" : [
+		"registry" ],
+	"name" : "TASendMailServiceTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

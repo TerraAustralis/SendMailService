@@ -1,0 +1,19 @@
+{
+	"category" : "SendMail-Service-Core",
+	"classinstvars" : [
+		"inProcess",
+		"queue" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jupiter 04/26/2015 14:07",
+	"instvars" : [
+		"taskValuable",
+		"taskValue",
+		"exception",
+		"id",
+		"hasValue" ],
+	"name" : "TASendMailServiceMailerTask",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

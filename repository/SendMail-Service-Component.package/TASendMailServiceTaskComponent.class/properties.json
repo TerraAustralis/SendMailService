@@ -1,0 +1,14 @@
+{
+	"category" : "SendMail-Service-Component",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jupiter 04/26/2015 14:09",
+	"instvars" : [
+		"task" ],
+	"name" : "TASendMailServiceTaskComponent",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }
