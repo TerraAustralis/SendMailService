@@ -6,6 +6,6 @@ initialize
     reset;
     inProcess;
     queue.
-  WAGemStoneServiceExampleVM
+  TASendMailServiceVm
     initialize;
     resetTasks

@@ -5,23 +5,22 @@ vmStartup
   GRPlatform current
     doTransaction: [ 
       (ObjectLogEntry
-        debug: 'SVCE STATS: Startup [1]'
+        debug: 'SendMailService STATS: Startup [1]'
         object:
-          'queue: ' , WAGemStoneServiceExampleTask queue size asString , ' scv: '
-            , WAGemStoneServiceExampleTask sharedCounterValue asString , ' hw: '
-            , WAGemStoneServiceExampleTask idHighWater asString , ' inprocess: '
-            , WAGemStoneServiceExampleTask inProcess size asString)
-        addToLog.
-      WAGemStoneServiceExampleTask queue
-        addAll: WAGemStoneServiceExampleTask inProcess.
-      WAGemStoneServiceExampleTask inProcess
-        removeAll: WAGemStoneServiceExampleTask inProcess.
+          'queue: ' , TASendMailServiceVmTask queue size asString , ' scv: '
+            , TASendMailServiceVmTask sharedCounterValue asString , ' hw: '
+            , TASendMailServiceVmTask idHighWater asString , ' inprocess: '
+            , TASendMailServiceVmTask inProcess size asString)
+        addToLog.	"' insts: ', TASendMailServiceVmTask instances size asString,"
+      TASendMailServiceVmTask queue addAll: TASendMailServiceVmTask inProcess.
+      TASendMailServiceVmTask inProcess
+        removeAll: TASendMailServiceVmTask inProcess.
       (ObjectLogEntry
-        debug: 'SVCE STATS: Startup [2]'
+        debug: 'SendMailService STATS: Startup [2]'
         object:
-          'queue: ' , WAGemStoneServiceExampleTask queue size asString , ' scv: '
-            , WAGemStoneServiceExampleTask sharedCounterValue asString , ' hw: '
-            , WAGemStoneServiceExampleTask idHighWater asString , ' inprocess: '
-            , WAGemStoneServiceExampleTask inProcess size asString)
-        addToLog ].
-  WAGemStoneServiceExampleTask setSharedCounterValue: self tasks first state + 1	"prime the pump"
+          'queue: ' , TASendMailServiceVmTask queue size asString , ' scv: '
+            , TASendMailServiceVmTask sharedCounterValue asString , ' hw: '
+            , TASendMailServiceVmTask idHighWater asString , ' inprocess: '
+            , TASendMailServiceVmTask inProcess size asString)
+        addToLog	"' insts: ', TASendMailServiceVmTask instances size asString," ].	"prime the pump"
+  TASendMailServiceVmTask setSharedCounterValue: self tasks first state + 1

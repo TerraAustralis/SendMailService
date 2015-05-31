@@ -1,10 +1,13 @@
 {
 	"class" : {
-		"email:" : "jupiter 04/26/2015 15:21" },
+		"email:address:" : "jupiter 05/29/2015 11:15" },
 	"instance" : {
+		"address:" : "jupiter 05/29/2015 11:16",
 		"email" : "jupiter 04/26/2015 15:16",
 		"email:" : "jupiter 04/26/2015 15:16",
 		"printOn:" : "jupiter 04/26/2015 15:31",
 		"result" : "jupiter 04/26/2015 15:17",
 		"result:" : "jupiter 04/26/2015 15:17",
-		"value" : "jupiter 04/26/2015 15:26" } }
+		"send" : "jupiter 05/31/2015 10:01",
+		"value" : "jupiter 05/31/2015 10:02",
+		"waEmailMessageString" : "jupiter 05/31/2015 09:37" } }

@@ -2,4 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"exampleEmail" : "jupiter 05/31/2015 10:18",
+		"gemServer" : "jupiter 05/27/2015 07:21",
+		"setUp" : "jupiter 04/26/2015 17:25",
+		"tearDown" : "jupiter 04/26/2015 17:26",
+		"testSendMail" : "jupiter 05/31/2015 10:08" } }

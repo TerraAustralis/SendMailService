@@ -5,14 +5,14 @@
 		"queue" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "jupiter 04/26/2015 15:06",
+	"commentStamp" : "jupiter 05/26/2015 16:31",
 	"instvars" : [
 		"taskValuable",
 		"taskValue",
 		"exception",
 		"id",
 		"hasValue" ],
-	"name" : "TASendMailServiceTask",
+	"name" : "TASendMailServiceVmTask",
 	"pools" : [
 		 ],
 	"super" : "Object",

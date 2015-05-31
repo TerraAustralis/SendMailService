@@ -1,3 +1,3 @@
 serviceVM tasks
 serviceVMTasksInProcess
-  ^ WAGemStoneServiceExampleTask inProcess size
+  ^ TASendMailServiceVmTask inProcess size

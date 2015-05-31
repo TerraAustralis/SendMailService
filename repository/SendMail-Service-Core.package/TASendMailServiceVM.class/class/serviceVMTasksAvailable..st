@@ -4,4 +4,4 @@ serviceVMTasksAvailable: vmTask
    there are entries in the queue, which means we don't have to acquire
    the transaction mutex"
 
-  ^ WAGemStoneServiceExampleTask sharedCounterValue > vmTask state
+  ^ TASendMailServiceVmTask sharedCounterValue > vmTask state
