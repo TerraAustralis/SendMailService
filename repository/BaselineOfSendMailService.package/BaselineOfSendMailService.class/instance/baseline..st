@@ -5,18 +5,14 @@ baseline: spec
     for: #'common'
     do: [ 
       spec
-        baseline: 'Seaside3'
-        with: [ 
-          spec
-            loads: #('Core' 'Email');
-            repository: 'github://GsDevKit/Seaside31/repository' ].
+        baseline: 'Network-Protocols'
+        with: [ spec repository: 'github://TerraAustralis/Network-Protocols/repository' ].
       spec
         baseline: 'ServiceVM'
-          with: [ spec repository: 'github://GsDevKit/ServiceVM/repository' ];
-        yourself.
+        with: [ spec repository: 'github://GsDevKit/ServiceVM/repository' ].
       spec
         package: 'SendMail-Service-Core'
-          with: [ spec requires: #('Seaside3' 'ServiceVM') ];
+          with: [ spec requires: #('Network-Protocols' 'ServiceVM') ];
         package: 'SendMail-Service-Component'
           with: [ spec requires: #('SendMail-Service-Core') ];
         package: 'SendMail-Service-Tests'
