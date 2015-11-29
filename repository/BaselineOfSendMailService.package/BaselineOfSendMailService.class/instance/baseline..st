@@ -5,14 +5,14 @@ baseline: spec
     for: #'common'
     do: [ 
       spec
-        baseline: 'Network-Protocols'
-        with: [ spec repository: 'github://TerraAustralis/Network-Protocols/repository' ].
+        baseline: 'NetworkProtocols'
+        with: [ spec repository: 'github://TerraAustralis/Network-Protocols' ].
       spec
         baseline: 'ServiceVM'
         with: [ spec repository: 'github://GsDevKit/ServiceVM/repository' ].
       spec
         package: 'SendMail-Service-Core'
-          with: [ spec requires: #('Network-Protocols' 'ServiceVM') ];
+          with: [ spec requires: #('NetworkProtocols' 'ServiceVM') ];
         package: 'SendMail-Service-Component'
           with: [ spec requires: #('SendMail-Service-Core') ];
         package: 'SendMail-Service-Tests'
